@@ -10,8 +10,8 @@ body {
   background: url('./quiz\ background.jpg') no-repeat center center/cover;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 500px) {
   body {
-    background: url('./quiz\ background.jpg') repeat-y;
+    background: url('./quiz\ background.jpg') repeat-y !important;
   }
 }
