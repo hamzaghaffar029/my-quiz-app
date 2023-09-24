@@ -42,6 +42,19 @@ const Finish = () => {
       >
         Restart Quiz
       </button>
+      <h2>Answers</h2>
+      <p style={{ color: 'white', textAlign: 'center' }}>
+        <p>1. Burger</p>
+        <p>2. Mountains</p>
+        <p>3. Eating</p>
+        <p>4. 19 December</p>
+        <p>5. Tea</p>
+        <p>6. DPS</p>
+        <p>7. Grass hopper</p>
+        <p>8. Disha Patani</p>
+        <p>9. Pakistan</p>
+        <p>10. Yes Karwao</p>
+      </p>
     </div>
   );
 };

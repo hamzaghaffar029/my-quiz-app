@@ -52,7 +52,7 @@ export const Question = [
     optionA: 'Grass hopper',
     optionB: 'Lizard',
     optionC: 'Height',
-    optionD: 'aunts',
+    optionD: 'ants',
     asnwer: 'A',
   },
   {
