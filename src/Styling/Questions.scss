@@ -23,15 +23,20 @@
     // border: 2px solid red;
     align-items: center;
     button {
-      border: none;
+      border: 1px solid black;
       border-radius: 10px;
-      background-color: aliceblue;
+      // background-color: aliceblue;
       padding: 10px;
       width: 80%;
       font-size: 30px;
       margin: 5px 0px;
+      // cursor: pointer;
       cursor: pointer;
-      &:hover {
+      // &:hover {
+      //   background-color: rgb(161, 165, 169);
+      //   color: white;
+      // }
+      &:active {
         background-color: rgb(161, 165, 169);
         color: white;
       }
