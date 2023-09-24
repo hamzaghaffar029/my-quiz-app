@@ -1,0 +1,45 @@
+.finish-container {
+  height: 600px;
+  width: 600px;
+  //   border: 2px solid red;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(14, 223, 119);
+  border-radius: 20px;
+  h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    span {
+      color: rgb(98, 97, 97);
+    }
+  }
+  h2 {
+    color: white;
+  }
+  .btn {
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    padding: 17px;
+    width: 80%;
+    font-size: 30px;
+    margin: 5px 0px;
+    color: white;
+    cursor: pointer;
+    margin-top: 75px;
+    &:hover {
+      background-color: rgb(206, 198, 198);
+      color: black;
+    }
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .finish-container {
+    width: 350px;
+  }
+}
