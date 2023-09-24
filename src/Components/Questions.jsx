@@ -12,12 +12,18 @@ const Questions = () => {
     if (Question[questionNumber].asnwer === choseOption) {
       setScore(score + 1);
     }
+    oppArray.map((element) => {
+      element.classList.remove('bg-active');
+    });
     setQuestionNumber(questionNumber + 1);
   };
   const handleFinish = () => {
     if (Question[questionNumber].asnwer === choseOption) {
       setScore(score + 1);
     }
+    oppArray.map((element) => {
+      element.classList.remove('bg-active');
+    });
 
     setGameState('finish');
   };
@@ -27,41 +33,55 @@ const Questions = () => {
     setChoseOption(ans);
   };
 
+  let opp = document.getElementsByClassName('option');
+  let oppArray = Array.from(opp);
+  const handleClick = (e) => {
+    oppArray.map((element) => {
+      element.classList.remove('bg-active');
+    });
+
+    e.target.classList.add('bg-active');
+  };
+
   return (
     <div className="questions-container">
       <h2>{Question[questionNumber].prompt}</h2>
       <div className="options-container">
         <button
-          id="1"
+          id="0"
           className="option"
-          onClick={() => {
+          onClick={(e) => {
+            handleClick(e);
             option('A');
           }}
         >
           {Question[questionNumber].optionA}
         </button>
         <button
-          id="2"
+          id="1"
           className="option"
-          onClick={() => {
+          onClick={(e) => {
+            handleClick(e);
             option('B');
           }}
         >
           {Question[questionNumber].optionB}
         </button>
         <button
-          id="3"
+          id="2"
           className="option"
-          onClick={() => {
+          onClick={(e) => {
+            handleClick(e);
             option('C');
           }}
         >
           {Question[questionNumber].optionC}
         </button>
         <button
-          id="4"
+          id="3"
           className="option"
-          onClick={() => {
+          onClick={(e) => {
+            handleClick(e);
             option('D');
           }}
         >

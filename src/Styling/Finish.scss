@@ -7,23 +7,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(14, 223, 119);
+  background-color: rgb(85, 14, 171);
   border-radius: 20px;
   h1 {
     color: white;
     text-align: center;
     padding-bottom: 50px;
     span {
-      color: rgb(98, 97, 97);
+      color: white;
+      font-size: 39px;
     }
   }
   h2 {
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .btn {
     border: none;
     border-radius: 10px;
-    background-color: gray;
+    background-color: rgb(159, 70, 232);
+
     padding: 17px;
     width: 80%;
     font-size: 30px;
@@ -32,8 +34,8 @@
     cursor: pointer;
     margin-top: 75px;
     &:hover {
-      background-color: rgb(206, 198, 198);
-      color: black;
+      background-color: rgb(128, 68, 177);
+      color: white;
     }
   }
 }
@@ -41,5 +43,8 @@
 @media screen and (max-width: 415px) {
   .finish-container {
     width: 350px;
+  }
+  h1 span {
+    font-size: 27px !important;
   }
 }

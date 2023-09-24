@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(14, 223, 119);
+  background-color: rgb(85, 14, 171);
   border-radius: 20px;
 
   h2 {
@@ -23,7 +23,7 @@
     // border: 2px solid red;
     align-items: center;
     button {
-      border: 1px solid black;
+      border: none;
       border-radius: 10px;
       // background-color: aliceblue;
       padding: 10px;
@@ -32,12 +32,8 @@
       margin: 5px 0px;
       // cursor: pointer;
       cursor: pointer;
-      // &:hover {
-      //   background-color: rgb(161, 165, 169);
-      //   color: white;
-      // }
-      &:active {
-        background-color: rgb(161, 165, 169);
+      &:hover {
+        background-color: rgb(159, 70, 232);
         color: white;
       }
     }
@@ -45,7 +41,7 @@
   .next-option {
     border: none;
     border-radius: 10px;
-    background-color: gray;
+    background-color: rgb(159, 70, 232);
     padding: 17px;
     width: 50%;
     font-size: 30px;
@@ -53,14 +49,14 @@
     color: white;
     cursor: pointer;
     &:hover {
-      background-color: rgb(206, 198, 198);
-      color: black;
+      background-color: rgb(128, 68, 177);
+      color: white;
     }
   }
 }
 
 .bg-active {
-  background-color: rgb(161, 165, 169) !important;
+  background-color: rgb(159, 70, 232) !important;
   color: white;
 }
 @media screen and (max-width: 415px) {

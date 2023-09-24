@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(14, 223, 119);
+  background-color: rgb(85, 14, 171);
   border-radius: 20px;
   h1 {
     color: white;
@@ -18,13 +18,14 @@
   .btn {
     border: none;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: rgb(159, 70, 232);
+    color: white;
     padding: 23px;
     width: 256px;
     font-size: 30px;
     cursor: pointer;
     &:hover {
-      background-color: rgb(161, 165, 169);
+      background-color: rgb(128, 68, 177);
       color: white;
     }
   }
@@ -35,6 +36,7 @@
     border-radius: 10px;
     width: 256px;
     margin: 12px 0px;
+    font-size: 23px;
   }
 }
 
