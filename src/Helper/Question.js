@@ -73,7 +73,7 @@ export const Question = [
   },
   {
     prompt: 'Most frequent word I use?',
-    optionA: 'Fuck u',
+    optionA: 'BSDK',
     optionB: 'BC',
     optionC: 'Yes Karwao',
     optionD: 'Wao Fantastic',
