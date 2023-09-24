@@ -60,7 +60,7 @@ export const Question = [
     optionA: 'Sana Javed',
     optionB: 'Disha Patani',
     optionC: 'Deepika padukone',
-    optionD: 'Alia But',
+    optionD: 'Alia Bhatt',
     asnwer: 'B',
   },
   {
